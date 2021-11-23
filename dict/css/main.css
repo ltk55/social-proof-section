@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --clr-primary-700: hsl(300, 43%, 22%);
+  --clr-primary-300: hsl(333, 80%, 67%);
+  --clr-neutral-100: hsl(303, 10%, 53%);
+  --clr-neutral-200: hsl(300, 24%, 96%);
+  --clr-neutral-300: hsl(0, 0%, 100%);
+  --ff-primary: "spartan", sans-serif;
+  --fs-400: 0.9375rem;
+  --fs-5000: 0.9635rem;
+  --fs-900: 2rem;
+}
+
+@media (min-width: 50em) {
+  :root {
+    --fs-900: 3rem;
+  }
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  padding-top: 5rem;
+}
+
+h1 {
+  font-size: var(--fs-900);
+  color: var(--clr-primary-700);
+  line-height: 1;
+  max-width: 12ch;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.lead {
+  font-size: var(--fs-500);
+}
+
+.container {
+  max-width: 70rem;
+  padding: 0 2em;
+  margin: 1 auto;
+}
+
+.ratings li {
+  color: var(--clr-primary-900);
+  background: var(--clr-neutral-200);
+  font-weight: 800;
+}
+/*# sourceMappingURL=main.css.map */
